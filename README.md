@@ -1,4 +1,4 @@
-# prompt-refiner
+# Claude Prompt-Refiner
 
 Turns a short, informal ask ("build me a prompt that does X but not Y") into a
 fully-structured prompt — goal, do/don't, output format, edge cases — confirms
@@ -61,7 +61,7 @@ install it with two commands — no manual file copying.
 
 2. Add this repo as a marketplace:
    ```
-   /plugin marketplace add <your-github-username>/prompt-refiner
+   /plugin marketplace add https://github.com/Henry263/claude-prompt-refine
    ```
 
 3. Install the plugin:
@@ -122,6 +122,10 @@ Claude Code plugin, the other is a plain folder ready to zip for claude.ai.
 5. Once confirmed, it either continues the conversation with the refined
    prompt, or hands it back as a clean copy-pasteable block for use
    elsewhere (another tool, an API call, etc.).
+
+## Contributing
+
+Contributions are welcome! Feel free to open a pull request to add new skills, improve the existing `SKILL.md`, fix bugs, or enhance the documentation. If you have an idea or run into an issue, open a GitHub Issue to start the conversation. There are no strict guidelines — just fork the repo, make your changes, and submit a PR.
 
 ## License
 
