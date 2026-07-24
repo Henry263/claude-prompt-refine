@@ -1,0 +1,10 @@
+{
+  "name": "prompt-refiner-plugin",
+  "description": "Turns a short, informal request into a fully-structured prompt (goal, do/don't, format, edge cases), confirms it with you, then runs it or hands it back for reuse.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Harshil Patel"
+  },
+  "license": "MIT",
+  "keywords": ["prompt-engineering", "productivity", "meta-prompting"]
+}
